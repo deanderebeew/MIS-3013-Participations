@@ -33,7 +33,7 @@ namespace Collections_In_Class
 
             string[] artists = message.Split(','); //array of strings, string is an array of characters, 
 
-            for (int i = 0; i < artists.Length; i++)
+            for (int i = 0; i < artists.Length; i++) 
             {
                 string artist = artists[i].Trim();
 
