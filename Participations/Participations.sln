@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "String_Manipulation Midterm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections_Min_Max_Avg_Mode", "Collections_Min_Max_Avg_Mode\Collections_Min_Max_Avg_Mode.csproj", "{2B6AF584-60CB-408E-95B7-5B00E74EE89E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllTypesofCollections", "AllTypesofCollections\AllTypesofCollections.csproj", "{263A1618-4357-45C1-8B85-4F88F1C48A21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{2B6AF584-60CB-408E-95B7-5B00E74EE89E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B6AF584-60CB-408E-95B7-5B00E74EE89E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B6AF584-60CB-408E-95B7-5B00E74EE89E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{263A1618-4357-45C1-8B85-4F88F1C48A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{263A1618-4357-45C1-8B85-4F88F1C48A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{263A1618-4357-45C1-8B85-4F88F1C48A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{263A1618-4357-45C1-8B85-4F88F1C48A21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
