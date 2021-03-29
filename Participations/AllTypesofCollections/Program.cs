@@ -74,42 +74,56 @@ namespace AllTypesofCollections
             //problem 3 code here 
             Dictionary<string, List<double>> courseGrades = new Dictionary<string, List<double>>();
             courseGrades.Add("MIS3013", new List<double>());
-           
 
-            List<double> MIS3013Grades = new List<double>();
-            MIS3013Grades.Add(92);
-            MIS3013Grades.Add(83);
-            MIS3013Grades.Add(63);
+            courseGrades["MIS3013"].Add(70);
+            courseGrades["MIS3013"].Add(90);
+            courseGrades["MIS3013"].Add(85);
 
+            courseGrades.Add("MIS3033", new List<double>());
+            courseGrades["MIS3033"].Add(80);
+            courseGrades["MIS3033"].Add(85);
+            courseGrades["MIS3033"].Add(90);
 
-            List<double> MIS3033Grades = new List<double>();
-            courseGrades.Add("MIS3033", MIS3033Grades);
-            MIS3033Grades.Add(0.70);
-            MIS3033Grades.Add(0.75);
-            MIS3033Grades.Add(0.80);
-
-            List<double> MATH2113Grades = new List<double>();
-            courseGrades.Add("MATH2113", MATH2113Grades);
-            MATH2113Grades.Add(0.80);
-            MATH2113Grades.Add(0.75);
-            MATH2113Grades.Add(0.90);
+            courseGrades.Add("MATH2113", new List<double>());
+            courseGrades["MATH2113"].Add(90);
+            courseGrades["MATH2113"].Add(80);
+            courseGrades["MATH2113"].Add(85);
 
 
-            double summ = 0;
+            //List<double> MIS3013Grades = new List<double>();
+            //MIS3013Grades.Add(92);
+            //MIS3013Grades.Add(83);
+            //MIS3013Grades.Add(63);
 
+
+            //List<double> MIS3033Grades = new List<double>();
+            //courseGrades.Add("MIS3033", MIS3033Grades);
+            //MIS3033Grades.Add(70);
+            //MIS3033Grades.Add(75);
+            //MIS3033Grades.Add(80);
+
+            //List<double> MATH2113Grades = new List<double>();
+            //courseGrades.Add("MATH2113", MATH2113Grades);
+            //MATH2113Grades.Add(80);
+            //MATH2113Grades.Add(75);
+            //MATH2113Grades.Add(90);
+
+
+          
             foreach (string courseName in courseGrades.Keys)
             {
+                double summ = 0;
                 List<double> grades = courseGrades[courseName];
-                summ = 0;
+               
 
-                foreach (double grade in grades)
+                foreach (double score in grades)
                 {
-                    summ = summ + grade;
-                    Console.WriteLine($"{courseName} - {grades}");
+                    summ = summ + score;
+                    Console.WriteLine($"{courseName} - {score}");
                 }
 
                 double average = summ / grades.Count;
-                double gradepercent = avg / 100;
+                double gradepercent = average / 100;
                 Console.WriteLine($" Your average for {courseName} is {gradepercent.ToString("P2")}");
 
             }
