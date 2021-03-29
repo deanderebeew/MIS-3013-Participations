@@ -74,21 +74,44 @@ namespace AllTypesofCollections
             //problem 3 code here 
             Dictionary<string, List<double>> courseGrades = new Dictionary<string, List<double>>();
             courseGrades.Add("MIS3013", new List<double>());
-            courseGrades["MIS3013"].Add(0.95);
+           
+
+            List<double> MIS3013Grades = new List<double>();
+            MIS3013Grades.Add(92);
+            MIS3013Grades.Add(83);
+            MIS3013Grades.Add(63);
+
 
             List<double> MIS3033Grades = new List<double>();
-            MIS3033Grades.Add(0.70);
-
             courseGrades.Add("MIS3033", MIS3033Grades);
+            MIS3033Grades.Add(0.70);
+            MIS3033Grades.Add(0.75);
+            MIS3033Grades.Add(0.80);
+
+            List<double> MATH2113Grades = new List<double>();
+            courseGrades.Add("MATH2113", MATH2113Grades);
+            MATH2113Grades.Add(0.80);
+            MATH2113Grades.Add(0.75);
+            MATH2113Grades.Add(0.90);
+
+
+            double summ = 0;
 
             foreach (string courseName in courseGrades.Keys)
             {
                 List<double> grades = courseGrades[courseName];
+                summ = 0;
 
                 foreach (double grade in grades)
                 {
-                    Console.WriteLine($"{courseName} - {grade}");
+                    summ = summ + grade;
+                    Console.WriteLine($"{courseName} - {grades}");
                 }
+
+                double average = summ / grades.Count;
+                double gradepercent = avg / 100;
+                Console.WriteLine($" Your average for {courseName} is {gradepercent.ToString("P2")}");
+
             }
 
             //output each grade one by one, like problem 2 average but per course instead of average for all courses 
