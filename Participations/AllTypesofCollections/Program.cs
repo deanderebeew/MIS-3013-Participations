@@ -109,7 +109,7 @@ namespace AllTypesofCollections
             //MATH2113Grades.Add(90);
 
 
-          
+          //foreach inside of a foreach is a collection within a collection 
             foreach (string courseName in courseGrades.Keys)
             {
                 double summ = 0;
