@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Processing_CSVFile", "Proce
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Functions", "Functions\Functions.csproj", "{D3036CAC-EB02-430C-8699-CAD55CFF19FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionStuffLists", "FunctionStuffLists\FunctionStuffLists.csproj", "{CFD93487-6E21-44F5-BB92-580CFF101240}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionStuffLists", "FunctionStuffLists\FunctionStuffLists.csproj", "{CFD93487-6E21-44F5-BB92-580CFF101240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple_Method(Speak)", "Simple_Method(Speak)\Simple_Method(Speak).csproj", "{F57FE257-9ABA-49B3-892B-86889376A890}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{CFD93487-6E21-44F5-BB92-580CFF101240}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFD93487-6E21-44F5-BB92-580CFF101240}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFD93487-6E21-44F5-BB92-580CFF101240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F57FE257-9ABA-49B3-892B-86889376A890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F57FE257-9ABA-49B3-892B-86889376A890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F57FE257-9ABA-49B3-892B-86889376A890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F57FE257-9ABA-49B3-892B-86889376A890}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
