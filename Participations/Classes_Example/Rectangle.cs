@@ -24,7 +24,7 @@ namespace Classes_Example
        
 
 
-        private double Width { get; set; }
+        public double Width { get; set; }
 
         /// <summary>
         /// Default/Empty constructor for this rectangle class
