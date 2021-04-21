@@ -29,7 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple_Method(Speak)", "Sim
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes_Example", "Classes_Example\Classes_Example.csproj", "{183E06A9-B232-45B0-A11B-77093B1A99B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes-Toy", "Classes-Toy\Classes-Toy.csproj", "{C21059A5-D770-4981-9AA0-9B3B7D1EB2BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes-Toy", "Classes-Toy\Classes-Toy.csproj", "{C21059A5-D770-4981-9AA0-9B3B7D1EB2BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes_ToyBox", "Classes_ToyBox\Classes_ToyBox.csproj", "{070C320E-A0F4-4A38-A9F3-A6A976B2A067}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes_Cereal", "Classes_Cereal\Classes_Cereal.csproj", "{DDF2F7CD-23D5-4B9A-836C-2A8B7A2E63EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,14 @@ Global
 		{C21059A5-D770-4981-9AA0-9B3B7D1EB2BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C21059A5-D770-4981-9AA0-9B3B7D1EB2BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C21059A5-D770-4981-9AA0-9B3B7D1EB2BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{070C320E-A0F4-4A38-A9F3-A6A976B2A067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070C320E-A0F4-4A38-A9F3-A6A976B2A067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070C320E-A0F4-4A38-A9F3-A6A976B2A067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070C320E-A0F4-4A38-A9F3-A6A976B2A067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDF2F7CD-23D5-4B9A-836C-2A8B7A2E63EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF2F7CD-23D5-4B9A-836C-2A8B7A2E63EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF2F7CD-23D5-4B9A-836C-2A8B7A2E63EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF2F7CD-23D5-4B9A-836C-2A8B7A2E63EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
