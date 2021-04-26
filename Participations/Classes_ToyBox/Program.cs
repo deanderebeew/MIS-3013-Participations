@@ -65,7 +65,7 @@ namespace Classes_ToyBox
 
                 foreach (Toy toy in toyBox.Toys)
                 {
-                    Console.WriteLine($"\n{toy.Name} was made by {toy.Manufacturer} and cost {toy.Price} and has these notes {toy.GetNotes()}");
+                    Console.WriteLine($"\n{toy.Name} was made by {toy.Manufacturer} and cost {toy.Price} on {toy.GetAisle()} and has these notes {toy.GetNotes()}");
 
                 }
 
